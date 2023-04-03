@@ -25,6 +25,11 @@ class _Screen1State extends State<Screen1> {
               fontWeight: FontWeight.bold,
           ),
         ),
+       shape: RoundedRectangleBorder(
+            borderRadius:BorderRadius.vertical(
+              bottom: Radius.circular(15),
+            ),
+          ),
         titleSpacing: 30,
         elevation: 0,
         actions: [
